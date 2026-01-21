@@ -3,115 +3,350 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pendaftaran KJP Plus Tahap 1 - 2026</title>
+    <title>🚀 KJP Plus Tahap 1 2026 - MTs Al Wathoniyah 43</title>
     <style>
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); color: #333; min-height: 100vh; }
-        .container { max-width: 900px; margin: 0 auto; padding: 20px; background: white; border-radius: 15px; box-shadow: 0 15px 35px rgba(0,0,0,0.2); position: relative; top: 20px; }
-        header { text-align: center; padding: 40px 20px; background: linear-gradient(45deg, #ff6b6b, #feca57); color: white; border-radius: 15px; margin: -20px -20px 30px -20px; }
-        h1 { margin: 0; font-size: 2.8em; text-shadow: 2px 2px 4px rgba(0,0,0,0.3); }
-        .tahap-badge { background: rgba(255,255,255,0.3); padding: 12px 25px; border-radius: 30px; font-size: 1.2em; font-weight: bold; margin: 15px 0; backdrop-filter: blur(10px); }
-        .highlight { background: #fff3cd; padding: 15px; border-radius: 10px; border-left: 5px solid #ffc107; margin: 20px 0; }
-        section { margin: 35px 0; padding: 25px; border-radius: 12px; background: #f8f9ff; border: 1px solid #e2e8f0; }
-        h2 { color: #1e3c72; margin-top: 0; font-size: 1.6em; display: flex; align-items: center; }
-        h2::before { content: "📋"; margin-right: 12px; font-size: 1.4em; }
-        ul, ol { padding-left: 25px; line-height: 1.7; }
-        li { margin: 12px 0; }
-        .download-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px; margin: 20px 0; }
-        .download-btn { background: linear-gradient(45deg, #28a745, #20c997); color: white; padding: 15px 25px; text-decoration: none; border-radius: 10px; display: block; text-align: center; font-weight: bold; transition: all 0.3s ease; box-shadow: 0 5px 15px rgba(40,167,69,0.3); }
-        .download-btn:hover { transform: translateY(-3px); box-shadow: 0 8px 25px rgba(40,167,69,0.4); }
-        .warning { background: #fff3cd; border: 1px solid #ffeaa7; padding: 20px; border-radius: 10px; margin: 20px 0; }
-        .warning strong { color: #856404; }
-        footer { text-align: center; padding: 25px; color: #6c757d; border-top: 1px solid #dee2e6; margin-top: 40px; }
-        @media (max-width: 768px) { h1 { font-size: 2.2em; } .container { margin: 10px; padding: 15px; top: 10px; } header { margin: -15px -15px 25px; } }
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+        
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: 'Poppins', sans-serif; 
+            background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+            background-size: 400% 400%;
+            animation: gradientShift 15s ease infinite;
+            color: #2c3e50;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+        @keyframes gradientShift {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .container { 
+            max-width: 1000px; 
+            margin: 0 auto; 
+            padding: 20px; 
+            position: relative;
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: rgba(255,255,255,0.95);
+            backdrop-filter: blur(20px);
+            border-radius: 25px;
+            padding: 40px;
+            text-align: center;
+            margin: 30px 0;
+            box-shadow: 0 25px 50px rgba(0,0,0,0.15);
+            position: relative;
+            overflow: hidden;
+        }
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,107,107,0.1) 0%, transparent 70%);
+            animation: float 6s ease-in-out infinite;
+        }
+        @keyframes float {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(-20px) rotate(180deg); }
+        }
+        .hero h1 {
+            font-size: 3.2em;
+            font-weight: 700;
+            background: linear-gradient(45deg, #ff6b6b, #feca57, #48bb78);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 15px;
+            text-shadow: 0 5px 20px rgba(255,107,107,0.3);
+        }
+        .school-name {
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: 1.6em;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+        .badge {
+            display: inline-block;
+            background: linear-gradient(45deg, #ff6b6b, #feca57);
+            color: white;
+            padding: 15px 35px;
+            border-radius: 50px;
+            font-size: 1.3em;
+            font-weight: 600;
+            margin: 20px 0;
+            box-shadow: 0 10px 30px rgba(255,107,107,0.4);
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); box-shadow: 0 10px 30px rgba(255,107,107,0.4); }
+            50% { transform: scale(1.05); box-shadow: 0 15px 40px rgba(255,107,107,0.6); }
+            100% { transform: scale(1); box-shadow: 0 10px 30px rgba(255,107,107,0.4); }
+        }
+
+        /* Cards */
+        .section-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 25px;
+            margin: 40px 0;
+        }
+        .card {
+            background: rgba(255,255,255,0.95);
+            backdrop-filter: blur(15px);
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            border: 1px solid rgba(255,255,255,0.2);
+            transition: all 0.4s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        .card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 5px;
+            background: linear-gradient(90deg, #ff6b6b, #feca57, #48bb78);
+        }
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 30px 60px rgba(0,0,0,0.2);
+        }
+        .card h2 {
+            font-size: 1.5em;
+            font-weight: 600;
+            color: #2c3e50;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+        }
+        .card h2::before {
+            font-size: 1.8em;
+            margin-right: 15px;
+        }
+        .warning-card {
+            background: linear-gradient(135deg, #fff3cd, #ffeaa7);
+            border-left: 6px solid #feca57;
+        }
+        .deadline {
+            background: linear-gradient(135deg, #ff6b6b, #ee5a52);
+            color: white;
+            padding: 20px;
+            border-radius: 15px;
+            text-align: center;
+            font-size: 1.3em;
+            font-weight: 700;
+            margin: 20px 0;
+            box-shadow: 0 10px 30px rgba(255,107,107,0.4);
+            animation: bounce 2s infinite;
+        }
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+            40% { transform: translateY(-10px); }
+            60% { transform: translateY(-5px); }
+        }
+
+        /* Download Buttons */
+        .download-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 25px 0;
+        }
+        .download-btn {
+            background: linear-gradient(45deg, #28a745, #20c997, #17a2b8);
+            color: white;
+            padding: 18px 25px;
+            text-decoration: none;
+            border-radius: 15px;
+            display: block;
+            text-align: center;
+            font-weight: 600;
+            font-size: 1em;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 25px rgba(40,167,69,0.4);
+            position: relative;
+            overflow: hidden;
+        }
+        .download-btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+            transition: left 0.5s;
+        }
+        .download-btn:hover::before { left: 100%; }
+        .download-btn:hover {
+            transform: translateY(-5px) scale(1.02);
+            box-shadow: 0 15px 35px rgba(40,167,69,0.6);
+        }
+
+        /* Checklist */
+        .checklist li {
+            position: relative;
+            padding-left: 35px;
+            margin: 15px 0;
+            font-weight: 500;
+        }
+        .checklist li::before {
+            content: '✅';
+            position: absolute;
+            left: 0;
+            font-size: 1.2em;
+            animation: checkmark 0.6s ease-out;
+        }
+        @keyframes checkmark {
+            0% { transform: scale(0) rotate(0deg); opacity: 0; }
+            50% { transform: scale(1.2) rotate(45deg); opacity: 0.5; }
+            100% { transform: scale(1) rotate(0deg); opacity: 1; }
+        }
+
+        /* Contact */
+        .contact-card {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+        }
+        .contact-card a {
+            color: #fff;
+            font-weight: 600;
+            text-decoration: none;
+        }
+        .contact-card a:hover { text-decoration: underline; }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: rgba(255,255,255,0.9);
+            background: rgba(0,0,0,0.2);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            margin-top: 40px;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2.2em; }
+            .school-name { font-size: 1.3em; }
+            .section-grid { grid-template-columns: 1fr; }
+            .container { padding: 15px; }
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <header>
-            <h1>🆕 KJP Plus Tahap 1 - 2026</h1>
-			<h3>MTS AL WATHONIYAH 43</h3> 
-            <div class="tahap-badge">Prioritas Siswa Penerus Tahap 2 - 2025</div>
-            <p><strong>Batas Waktu Terbatas!</strong> Segera lengkapi berkas dan serahkan ke madrasah</p>
-        </header>
+        <!-- Hero Section -->
+        <div class="hero">
+            <h1>🆕 KJP Plus Tahap 1 2026</h1>
+            <h2 class="school-name">MTS AL WATHONIYAH 43</h2>
+            <div class="badge">Prioritas Siswa Penerus Tahap 2 - 2025</div>
+            <p><strong>⏰ BATAS WAKTU TERBATAS!</strong><br>Segera lengkapi berkas dan serahkan ke madrasah</p>
+        </div>
 
-        <div class="highlight">
-            <strong>📢 UPDATE 2026:</strong> Pendaftaran Tahap 1 2026 khusus <em><strong>Siswa Existing atau Penerima KJP Plus Tahap 2 Tahun 2025</em></strong>
+        <!-- Deadline Alert -->
+        <div class="deadline">
+          <strong>📅 KHUSUS SISWA EXISTING / SISWA PENERIMA KJP PLUS TAHAP 2 TAHUN 2025</strong>
+        </div>
+
+        <div class="section-grid">
+            <!-- Kriteria Penerima -->
+            <div class="card">
+                <h2>🎯 Kriteria Penerima</h2>
+                <ul class="checklist">
+                    <li>Tidak tawuran/perkelahian</li>
+                    <li>Tidak merokok/konsumsi narkoba</li>
+                    <li>Tidak terlibat geng motor/asusila</li>
+                    <li>Tidak terlibat kekerasan/bullying</li>
+                    <li>Tidak memiliki kendaraan pribadi roda 4</li>
+                    <li>Tidak sering bolos/terlambat berlebihan</li>
+                </ul>
+            </div>
+
+            <!-- Daftar Penerima -->
+            <div class="card">
+                <h2>📋 Daftar Penerima</h2>
+                <ul class="checklist">
+                    <li>KELAS 7 : 11 siswa</li>
+					<li>KELAS 8 : 11 SISWA</li>
+				    <li>KELAS 9 : 11 SISWA</li>
+					<br>
+					<p><strong> Silahkan lihat <a href="https://docs.google.com/spreadsheets/d/1GLR20iScYJKme6hXZVTLOY8dHolGvvNk33eqNuQibrI/edit?usp=sharing" target="_blank">DISINI</a></p></strong><br>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Dokumen Wajib -->
+        <div class="card warning-card">
+            <h2>📁 Dokumen yang Harus Disiapkan</h2>
+            <ul class="checklist">
+                <li>FC KK yang sudah diperbaharui</li>
+                <li>FC Akte Kelahiran Siswa/i</li>
+                <li>FC KTP Ayah, Ibu & Kontak Darurat</li>
+                <li>FC Buku Tabungan KJP (halaman depan)</li>
+            </ul>
+        </div>
+
+       <!-- Proses Pendaftaran -->
+        <div class="card">
+            <h2>🚀 Proses Pendaftaran</h2>
+            <ol style="padding-left: 25px; line-height: 1.8;">
+                <li>Download & Print Dokumen Wajib</li>
+                <li>Isi lengkap & tanda tangan</li>
+                <li>Masukkan semua dokumen ke dalam MAP sesuai kelas:</li>
+            </ol>
+            <div style="background: #f8f9ff; padding: 20px; border-radius: 12px; margin: 20px 0;">
+                <strong>🗂️ JENIS MAP WAJIB:</strong><br>
+                <strong>Kelas 7:</strong> Map Business File <span style="color: #e74c3c;">MERAH</span><br>
+                <strong>Kelas 8:</strong> Map Coklat Bertali<br>
+                <strong>Kelas 9:</strong> Map Diamond <span style="color: #f39c12;">KUNING</span>
+            </div>
         </div>
 		
-<section id="manfaat">
-            <h2>Kriteria Penerima KJP Plus</h2>
-            <ul>
-                <li>Tidak tawuran/perkelahian</li>
-				<li>Tidak merokok/konsumsi narkoba</li>
-                <li>Tidak terlibat geng motor/asusila</li>
-                <li>Tidak terlibat kekerasan/bullying</li>
-                <li>Tidak memiliki kendaraan pribadi roda empat (mobil)</li>
-				<li>Sering bolos (minimal 4x/bulan) atau terlambat (minimal 6x/bulan) </li>
-            </ul>
-        </section>
-		
-        <section id="syarat">
-            <h2>Syarat Pendaftaran KJP Plus Tahap 1 2026</h2>
-            <ul>
-                <li>✅ Siswa aktif di sekolah/madrasah formal DKI Jakarta</li>
-                <li>✅ Terdaftar DTKS/DTKS Daerah</li>
-                <li>✅ Domisili DKI Jakarta (KK/KTP orang tua valid)</li>       
-            </ul>
-        </section>
-		
-		<section id="syarat">
-            <h2>Dokumen yang harus disiapkan</h2>
-            <ul>
-                <li>✅ FC KK Yang sudah di perbaharui</li>
-                <li>✅ FC Akte Kelahiran Siswa/i</li>
-                <li>✅ FC KTP Ayah, Ibu & Kontak Darurat</li>       
-				<li>✅ FC Buku Tabungan KJP (halaman depan)</li>
-				<li>✅ Bukti terdaftar DTKS (Layak) | <a href="https://siladu.jakarta.go.id/" style="color: #1e3c72; font-weight: bold;">siladu.jakarta.go.id</a></li>
-            </ul>
-        </section>
-		
-		<section id="langkah">
-            <h2>Proses Pendaftaran Tahap 1</h2>
-            <ol>
-                <li>Download & Print dokumen wajib</li>
-                <li>Isi lengkap & tanda tangan </li>
-                <li>Semua dokumen dimasukkan kedalam map dan serahkan ke madrasah</li>
-                <strong>Kelas 7 :</strong> Map Bussines File warna merah
-				<br><strong>Kelas 8 :</strong> Map Coklat bertali
-				<br><strong>Kelas 9 :</strong> Map Diamond warna Kuning
-				<br>              
-			   <h3><strong>Batas Akhir Pengumpulan Tanggal 26 Januari 2026</strong><h3>        
-		   </ol>
-        </section>
-		
-        <section id="dokumen">
-            <h2>Dokumen Wajib</h2>
+		 <!-- Download Section -->
+        <div class="card">
+            <h2>⬇️ Download Dokumen Wajib </h2>
             <div class="warning">
-                <strong>⚠️ Download,Print & Tanda Tangan Semua Dokumen:</strong>
+                <strong>⚠️ PRINT A4 & TANDA TANGAN SEMUA DOKUMEN</strong>
             </div>
             <div class="download-grid">
-                <a href="https://drive.google.com/file/d/1HAqUQdZItbDqS4SMxn1T0BvFBNnNyr8B/view?usp=sharing" class="download-btn" download>📄 Formulir Pendaftaran</a>
-                <a href="https://drive.google.com/file/d/1vvHdMguSQoXJSaz_eFBVrjvGI3tTiS2Y/view?usp=sharing" class="download-btn" download>📜 Surat Permohonan BANSOS Gubernur</a>
-                <a href="https://drive.google.com/file/d/1kwP18dREsIb4Hz69saP78zTMG7zEpwos/view?usp=sharing" class="download-btn" download>📜 Surat Ketaatan Pengguna</a>
-				<a href="https://drive.google.com/file/d/1Hc8nC24zlMBDTsbbaXQvJeMk_Gx2MFu1/view?usp=sharing" class="download-btn" download>✅ Surat BAP Kelayakan</a>
-                </div>
-				<p><em><strong>**Semua Dokumen di Print menggunakan kertas F4/Folio</strong></em></p>
-        </section>
-
-        <section id="kontak">
-            <h2>📞 Kontak Bantuan</h2>
-            <div style="background: white; padding: 20px; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
-                <p><strong>🔥 SEKOLAH:</strong> <a href="https://wa.me/6285796836507" style="color: #1e3c72; font-weight: bold;">WhatsApp Admin MTs Al Wathoniyah 43</a></p>
-                <p><strong>🌐 RESMI:</strong> <a href="https://kjp.jakarta.go.id" style="color: #1e3c72; font-weight: bold;">kjp.jakarta.go.id</a></p>
+                <a href="https://drive.google.com/file/d/1HAqUQdZItbDqS4SMxn1T0BvFBNnNyr8B/view?usp=sharing" class="download-btn" target="_blank">📄 Formulir Pendaftaran</a>
+                <a href="https://drive.google.com/file/d/1vvHdMguSQoXJSaz_eFBVrjvGI3tTiS2Y/view?usp=sharing" class="download-btn" target="_blank">📜 Surat Permohonan</a>
+                <a href="https://drive.google.com/file/d/1kwP18dREsIb4Hz69saP78zTMG7zEpwos/view?usp=sharing" class="download-btn" target="_blank">✅ Surat Ketaatan Pengguna</a>
+                <a href="https://drive.google.com/file/d/1Hc8nC24zlMBDTsbbaXQvJeMk_Gx2MFu1/view?usp=sharing" class="download-btn" target="_blank">📋 Surat BAP Kelayakan</a>
             </div>
-        </section>
+        </div>
+		
+<!-- Deadline Alert -->
+        <div class="deadline">
+		  📅 <strong>BATAS AKHIR PENGUMPULAN: 26 JANUARI 2026</strong>
+        </div>
+        <!-- Contact -->
+        <div class="card contact-card">
+            <h2>📞 Kontak Bantuan</h2>
+            <p><strong>🔥 MADRASAH:</strong><br>
+            <a href="https://wa.me/6285796836507" target="_blank">WhatsApp Admin MTs Al Wathoniyah 43</a></p>
+            <br><p><strong>🌐 RESMI:</strong><br>
+            <a href="https://kjp.jakarta.go.id" target="_blank">kjp.jakarta.go.id</a></p>
+        </div>
 
         <footer>
-            <p>© 2026 Admin | Dibuat khusus untuk orang tua siswa MTs Al Wathoniyah 43<br>
-            Informasi berdasarkan ketentuan terbaru KJP Plus Tahap 1 - 2026</p>
+            <p>© 2026 MTs Al Wathoniyah 43 | Dibuat khusus untuk orang tua siswa<br>
+            <strong>Informasi berdasarkan ketentuan terbaru KJP Plus Tahap 1 - 2026</strong></p>
         </footer>
     </div>
 </body>
 </html>
-
-
